@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+    <title>Startmin</title>
+    <!-- Redirigir a la ruta definida de Laravel -->
+    <meta http-equiv="refresh" content="0;url={{ route('index') }}">
 </head>
-
 <body>
-  <h1>Bienvenido al Dashboard</h1>
-  <a href="{{ route('logout') }}">Cerrar sesión</a>
+<script language="javascript">
+    // Redirigir usando JavaScript
+    window.location.href = "{{ route('index') }}";
+</script>
 </body>
-
 </html>

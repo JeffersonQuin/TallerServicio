@@ -16,3 +16,7 @@ Route::post('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('dashboard', function() {
     return view('dashboard');  // Asegúrate de crear esta vista
 })->name('dashboard')->middleware('auth');
+
+Route::get('/index', function () {
+    return view('pages.index');  // Asegúrate de que 'pages.index' sea la vista correcta
+})->name('index');
