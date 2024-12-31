@@ -2,8 +2,10 @@
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
-// Ruta principal para mostrar el formulario de inicio de sesión
-Route::get('/', [AuthController::class, 'showLoginForm'])->name('login');
+// Ruta principal para mostrar el formulario de bienvenida
+Route::get('/', function () {
+    return view('welcome');  // La vista que se muestra primero
+});
 
 // Rutas para login, registro y logout
 Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
@@ -17,6 +19,7 @@ Route::get('dashboard', function() {
     return view('dashboard');  // Asegúrate de crear esta vista
 })->name('dashboard')->middleware('auth');
 
+// Ruta para el índice (la vista en 'pages.index')
 Route::get('/index', function () {
     return view('pages.index');  // Asegúrate de que 'pages.index' sea la vista correcta
 })->name('index');
