@@ -1,161 +1,147 @@
-:root {
-    scroll-behavior: smooth;
-  }
-
-  .login-page {
-    background-image: 
-        radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%), 
-        url('/assets/img/policia_logo.jpg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-  }
-
-  a {
-    color: #4154f1;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #717ff5;
-    text-decoration: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Nunito", sans-serif;
-  }
-  
-  #main {
-    margin-top: 60px;
-    padding: 20px 30px;
-    transition: all 0.3s;
-  }
-  
-  @media (max-width: 1199px) {
-    #main {
-      padding: 20px;
-    }
-  }
-
-  .logo {
-    line-height: 1;
-    display: flex;
-    align-items: center;
-  }
-  
-  @media (min-width: 1200px) {
-    .logo {
-      width: 280px;
-    }
-  }
-  
-  .logo img {
-    max-height: 40px;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .logo span {
-    color: #008f39;
-    font-size: 3em;
-    justify-content: center;
-    display: flex;
-    margin: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: "Nunito", sans-serif;
-    white-space: nowrap;
-    transition: ease-in-out;
-  }
-
-  .card-title {
-  padding: 20px 0 15px 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: #012970;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.card-title span {
-  color: #899bbd;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.card-header{
+body {
+  background-color: #080710;
+  font-family: 'Poppins', sans-serif;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center;  
-  border-color: #ebeef4;
-  background-color: #fff;
-  color: #798eb3;
-  padding: 15px;
+  height: 100vh;
+  margin: 0;
+  color: #e5e5e5; /* Asegurando que el color del texto sea legible */
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  z-index: 0; /* Asegurando que la forma de fondo no cubra otros elementos */
+}
+
+.background .shape {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+  left: -80px;
+  top: -80px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: -30px;
+  bottom: -80px;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 30px;
+  color: #ffffff;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px; /* Espacio adicional entre el título y el formulario */
 }
 
 .card-body {
-    padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.btn{
-    width: 60%;
-    height: 40px;
-    margin: 10px auto;
-    justify-content: center;
-    display: block;
-    color: #fff;
-    background: #012970;
-    font-size: 1em;
-    font-weight: bold;
-    margin-top: 20px;
-    outline: none;
-    border-radius: 5px;
-    transition: .2s ease-in;
-    cursor: pointer;
-}
-
-.btn:hover{
-    background: #00b0c7;
-}
-
-
-.card {
-  background-color: rgba(255, 255, 255, 0.8); 
-  padding: 0px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  max-width: 400px; 
-  margin-left: 0; 
-  text-align: left;
-}
-
-/* Formulario */
-input[type="text"], input[type="password"], button {
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
   border-radius: 5px;
+  border: none;
+  padding: 0 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #e5e5e5;
+  transition: background-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #23a2f6;
+  background-color: rgba(35, 162, 246, 0.1); /* Fondo con un poco de color cuando está enfocado */
 }
 
 button {
-  background-color: #004085;
-  color: #fff;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
   border: none;
-  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-input[type="text"], input[type="password"] {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid #ccc;
-  padding: 10px;
+button:hover {
+  background-color: #23a2f6;
+  color: #ffffff;
+}
+
+p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #e5e5e5;
+  margin-top: 20px;
+}
+
+p a {
+  color: #23a2f6;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .background {
+    width: 350px; /* Ajuste en el tamaño de las formas de fondo */
+    height: 420px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  input {
+    font-size: 13px; /* Reducir tamaño de fuente en pantallas pequeñas */
+  }
+
+  button {
+    font-size: 14px; /* Reducir el tamaño del botón en pantallas pequeñas */
+  }
 }

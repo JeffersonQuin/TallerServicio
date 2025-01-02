@@ -285,7 +285,7 @@
                   </div>
                 </div>
               </div>
-              <img src="http://placehold.it/350x350" alt="Lavado Exterior">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAtJzlnIAVxBSsHpVZSm7uv_mR1f0SRFrhg&s" alt="Lavado Exterior" width="350" height="260">
             </div>
             <div class="service-number wow zoomIn">5</div>
           </a>
@@ -302,7 +302,7 @@
                   </div>
                 </div>
               </div>
-              <img src="http://placehold.it/350x350" alt="Aspirado Interior">
+              <img src="https://img.freepik.com/foto-gratis/hermoso-coche-servicio-limpieza-interior_23-2149212255.jpg" alt="Aspirado Interior" width="350" height="260">
             </div>
             <div class="service-number wow zoomIn" data-wow-delay="0.5s">6</div>
           </a>
@@ -319,7 +319,7 @@
                   </div>
                 </div>
               </div>
-              <img src="http://placehold.it/350x350" alt="Fumigado Interior">
+              <img src="https://megusta.do/storage/32000/14942/8038cd71c03e98c54d9e8cb748db6a50.jpg" alt="Fumigado Interior" width="350" height="260">
             </div>
             <div class="service-number wow zoomIn" data-wow-delay="1s">7</div>
           </a>
@@ -336,7 +336,7 @@
                   </div>
                 </div>
               </div>
-              <img src="http://placehold.it/350x350" alt="Encerado y Pulido">
+              <img src="https://static.wixstatic.com/media/e24a86_fa0c3091a22c4ee3b6b7b9f2830eabac~mv2.jpg/v1/fill/w_848,h_521,al_c,lg_1,q_85/e24a86_fa0c3091a22c4ee3b6b7b9f2830eabac~mv2.jpg" alt="Encerado y Pulido" width="350" height="260">
             </div>
             <div class="service-number wow zoomIn" data-wow-delay="1.5s">8</div>
           </a>
@@ -346,7 +346,7 @@
   </div>
 </section>
 
-      <!-- Contact Section -->
+      <!-- Contact Section
       <section class="fullwidth-section" id="contact">
         <div class="section-inner">
           <div class="container">
@@ -371,113 +371,83 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
 
-      <!-- Pricing Section -->
-      <section class="fullwidth-section color-section" id="pricing">
-        <div class="section-inner">
-          <div class="container">
-            <div class="section-title-wrapper">
-              <h2 class="section-title"><span>Pricing tabs</span></h2>
-              <h4 class="section-subtitle">These are our pricing tables</h4>
+<!-- Pricing Section -->
+<section class="fullwidth-section color-section" id="pricing">
+  <div class="section-inner">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title"><span>Combos</span></h2>
+        <h4 class="section-subtitle">Elige el combo que más te convenga</h4>
+      </div>
+      <div class="row pricing-table-padding">
+        <!-- Combo Mecánico -->
+        <div class="col-md-4">
+          <div class="pricing-table wow fadeInLeft">
+            <div class="title-wrapper">
+              <h3 class="title">Combo Mecánico</h3>
             </div>
-            <div class="row pricing-table-padding">
-              <div class="col-md-4">
-                <div class="pricing-table wow fadeInLeft">
-                  <div class="title-wrapper">
-                    <h3 class="title">Standard</h3>
-                  </div>
-                  <div class="price-wrapper">
-                    <h2 class="price">$10</h2>
-                  </div>
-                  <div class="pricing-table-feature">
-                    Tunnel Wash
-                  </div>
-                  <div class="pricing-table-feature">
-                    Windows Cleaning
-                  </div>
-                  <div class="pricing-table-feature">
-                    No Vacuum Cleaning
-                  </div>
-                  <div class="pricing-table-feature">
-                    No Polish Waxing
-                  </div>
-                  <div class="pricing-table-feature">
-                    No Tires Armoring
-                  </div>
-                  <a href="#">
-                    <div class="get-it">
-                      <h4 class="get-it-text">Get it</h4>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="pricing-table featured wow fadeInUp">
-                  <div class="title-wrapper">
-                    <h3 class="title">Premium</h3>
-                  </div>
-                  <div class="price-wrapper">
-                    <h2 class="price">$15</h2>
-                  </div>
-                  <div class="pricing-table-feature">
-                    Tunnel Wash
-                  </div>
-                  <div class="pricing-table-feature">
-                    Windows Cleaning
-                  </div>
-                  <div class="pricing-table-feature">
-                    Vacuum Cleaning
-                  </div>
-                  <div class="pricing-table-feature">
-                    No Polish Waxing
-                  </div>
-                  <div class="pricing-table-feature">
-                    No Tires Armoring
-                  </div>
-                  <a href="#">
-                    <div class="get-it">
-                      <h4 class="get-it-text">Get it</h4>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="pricing-table wow fadeInRight">
-                  <div class="title-wrapper">
-                    <h3 class="title">VIP</h3>
-                  </div>
-                  <div class="price-wrapper">
-                    <h2 class="price">$20</h2>
-                  </div>
-                  <div class="pricing-table-feature">
-                    Tunnel Wash
-                  </div>
-                  <div class="pricing-table-feature">
-                    Windows Cleaning
-                  </div>
-                  <div class="pricing-table-feature">
-                    Vacuum Cleaning
-                  </div>
-                  <div class="pricing-table-feature">
-                    Polish Waxing
-                  </div>
-                  <div class="pricing-table-feature">
-                    Tires Armoring
-                  </div>
-                  <a href="#">
-                    <div class="get-it">
-                      <h4 class="get-it-text">Get it</h4>
-                    </div>
-                  </a>
-                </div>
-              </div>
+            <div class="price-wrapper">
+              <h2 class="price">200 Bs</h2>
             </div>
+            <div class="pricing-table-feature">Cambio de Aceite</div>
+            <div class="pricing-table-feature">Engrasado de Partes</div>
+            <div class="pricing-table-feature">Cambio de Frenos</div>
+            <div class="pricing-table-feature">Revisión de Neumáticos</div>
+            <a href="#">
+              <div class="get-it">
+                <h4 class="get-it-text">Obtener</h4>
+              </div>
+            </a>
           </div>
         </div>
-      </section>
+        <!-- Combo Completo -->
+        <div class="col-md-4">
+          <div class="pricing-table featured wow fadeInUp">
+            <div class="title-wrapper">
+              <h3 class="title">Combo Completo</h3>
+            </div>
+            <div class="price-wrapper">
+              <h2 class="price">250 Bs</h2>
+            </div>
+            <div class="pricing-table-feature">Cambio de Aceite</div>
+            <div class="pricing-table-feature">Revisión de Neumáticos</div>
+            <div class="pricing-table-feature">Lavado Exterior</div>
+            <div class="pricing-table-feature">Encerado y Pulido</div>
+            <a href="#">
+              <div class="get-it">
+                <h4 class="get-it-text">Obtener</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Combo Limpieza -->
+        <div class="col-md-4">
+          <div class="pricing-table wow fadeInRight">
+            <div class="title-wrapper">
+              <h3 class="title">Combo Limpieza</h3>
+            </div>
+            <div class="price-wrapper">
+              <h2 class="price">100 Bs</h2>
+            </div>
+            <div class="pricing-table-feature">Lavado Exterior</div>
+            <div class="pricing-table-feature">Aspirado Interior</div>
+            <div class="pricing-table-feature">Fumigado Interior</div>
+            <div class="pricing-table-feature">Encerado y Pulido</div>
+            <a href="#">
+              <div class="get-it">
+                <h4 class="get-it-text">Obtener</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <!-- Testimonials Section -->
+      <!-- Testimonials Section 
       <section class="fullwidth-section" id="testimonials">
         <div class="section-inner">
           <div class="container">
@@ -521,114 +491,125 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
 
-      <!-- Localize Us Section -->
-      <section id="localize-us" class="fullwidth-section gray-section">
-        <div class="section-inner no-padding-bottom">
-          <div class="container">
-            <div class="section-title-wrapper">
-              <h2 class="section-title"><span>Location</span></h2>
-              <h4 class="section-subtitle">This is where we are</h4>
+<!-- Sección de Ubicación -->
+<section id="localize-us" class="fullwidth-section gray-section">
+  <div class="section-inner no-padding-bottom">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title"><span>Ubicación</span></h2>
+        <h4 class="section-subtitle">Aquí nos encontramos</h4>
+      </div>
+    </div>
+    <!-- Google Maps Embed -->
+    <div id="map_canvas" style="text-align: center;">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.839844295352!2d144.9630577153214!3d-37.814107979751846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c53e658d4a26!2sFederation+Square!5e0!3m2!1ses!2sau!4v1510912988955" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-widget-area">
+    <div class="footer-widget-area-inner">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-4">
+            <div class="media">
+              <div class="pull-left">
+                <div class="icon-basic icon-basic-smartphone footer-icon"></div>
+              </div>
+              <div class="media-body">
+                <h3 class="widget-first-line">+591 702-123-456</h3>
+                <h4 class="widget-second-line color">¿Tienes alguna pregunta?</h4>
+              </div>
             </div>
           </div>
-          <div id="map_canvas"></div>
-        </div>
-      </section>
-
-      <footer>
-        <div class="footer-widget-area">
-          <div class="footer-widget-area-inner">
-            <div class="container">
-              <div class="row footer-row">
-                <div class="col-md-4">
-                  <div class="media">
-                    <div class="pull-left">
-                      <div class="icon-basic icon-basic-smartphone footer-icon"></div>
-                    </div>
-                    <div class="media-body">
-                      <h3 class="widget-first-line">517-953-5245</h3>
-                      <h4 class="widget-second-line color">Have some questions?</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="footer-logo-social">
-                    <img class="footer-logo" src="img/logo.png" alt="CarWash">
-                    <div class="social-icons-wrapper">
-                      <a href="#" class="social-icon img-circle">
-                        <i class="fa fa-facebook fa-2x"></i>
-                      </a>
-                      <a href="#" class="social-icon img-circle">
-                        <i class="fa fa-twitter fa-2x"></i>
-                      </a>
-                      <a href="#" class="social-icon img-circle">
-                        <i class="fa fa-skype fa-2x"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="media">
-                    <div class="media-left">
-                      <div class="icon-basic icon-basic-geolocalize-01 footer-icon"></div>
-                    </div>
-                    <div class="media-body">
-                      <h3 class="widget-first-line">London, UK</h3>
-                      <h4 class="widget-second-line color">10 Firs Avenue, Muswell Hill</h4>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-md-4">
+            <div class="footer-logo-social">
+              <img class="footer-logo" src="img/logo.png" alt="Taller Alfa Romeo">
+              <div class="social-icons-wrapper">
+                <a href="#" class="social-icon img-circle">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="social-icon img-circle">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="social-icon img-circle">
+                  <i class="fa fa-whatsapp fa-2x"></i>
+                </a>
               </div>
-
-              <div class="divider"></div>
-
-              <div class="row">
-                <div class="col-md-3">
-                  <h5 class="widget-title">About</h5>
-                  <p>Suspendisse vulputate sed est ac elementum. Phasellus interdum erat sapien, at cursus elit interdum eu. Nulla a finibus sem, quis volutpat mi. Fusce congue tristique imperdiet. Vestibulum porta sapien et quam cursus, volutpat pharetra tortor eleifend. Nam ac condimentum leo.</p>
-                </div>
-                <div class="col-md-3">
-                  <h5 class="widget-title">Services</h5>
-                  <ul class="list-widget">
-                    <li>Hand & Tunnel Washing</li>
-                    <li>Detailed Cleaning</li>
-                    <li>Windows Cleaning</li>
-                    <li>Tire Armoring</li>
-                    <li>Interior Cleaning</li>
-                    <li>Vacuum Cleaning</li>
-                    <li>AC Fumigation</li>
-                  </ul>
-                </div>
-                <div class="col-md-3">
-                  <h5 class="widget-title">Contact</h5>
-                  <p>London, UK
-                    <br>10, Firs Avenue, Muswell Hill,</p>
-                  <p>Tel: 02 562-958</p>
-                  <p>E-mail: example@example.com</p>
-                </div>
-                <div class="col-md-3">
-                  <h5 class="widget-title">Opening Hours</h5>
-                  <ul class="list-widget">
-                    <li>Monday <span class="pull-right">8.00am - 6.00pm</span></li>
-                    <li>Tuesday <span class="pull-right">8.00am - 6.00pm</span></li>
-                    <li>Wednesday <span class="pull-right">8.00am - 6.00pm</span></li>
-                    <li>Thursday <span class="pull-right">8.00am - 6.00pm</span></li>
-                    <li>Friday <span class="pull-right">8.00am - 6.00pm</span></li>
-                    <li>Saturday <span class="pull-right">8.00am - 4.00pm</span></li>
-                    <li>Sunday <span class="pull-right">10.00am - 4.00pm</span></li>
-                  </ul>
-                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="media">
+              <div class="media-left">
+                <div class="icon-basic icon-basic-geolocalize-01 footer-icon"></div>
+              </div>
+              <div class="media-body">
+                <h3 class="widget-first-line">Oruro, Bolivia</h3>
+                <h4 class="widget-second-line color">Avenida Tacna final Norte</h4>
               </div>
             </div>
           </div>
         </div>
-        <div class="copyright-bar">
-          <div class="container">
-            &copy; 2015 <span class="color">CARWASH One Page HTML5 Template</span>
+
+        <div class="divider"></div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="widget-title">Acerca de nosotros</h5>
+            <p>El Taller "Alfa Romeo" ofrece servicios de mantenimiento automotriz con una atención personalizada para el cambio de aceite, engrasado, cambio de frenos, lavado, aspirado, fumigado, encerado y pulido. Nuestro equipo está compuesto por técnicos especializados que garantizan la calidad y eficiencia en cada servicio.</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="widget-title">Servicios</h5>
+            <ul class="list-widget">
+              <li>Cambio de aceite</li>
+              <li>Engrasado de partes</li>
+              <li>Cambio de frenos</li>
+              <li>Aspirado de interiores</li>
+              <li>Lavado y fumigado</li>
+              <li>Encerado y pulido</li>
+              <li>Revisión de frenos y ajustes</li>
+              <li>Reserva de servicios en línea</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="widget-title">Contacto</h5>
+            <p>Oruro, Bolivia
+              <br>Avenida Tacna final Norte</p>
+            <p>Tel: +591 702-123-456</p>
+            <p>E-mail: contacto@talleralfaromeo.com</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="widget-title">Horario de atención</h5>
+            <ul class="list-widget">
+              <li>Lunes <span class="pull-right">8:00 am - 6:00 pm</span></li>
+              <li>Martes <span class="pull-right">8:00 am - 6:00 pm</span></li>
+              <li>Miércoles <span class="pull-right">8:00 am - 6:00 pm</span></li>
+              <li>Jueves <span class="pull-right">8:00 am - 6:00 pm</span></li>
+              <li>Viernes <span class="pull-right">8:00 am - 6:00 pm</span></li>
+              <li>Sábado <span class="pull-right">8:00 am - 4:00 pm</span></li>
+              <li>Domingo <span class="pull-right">Cerrado</span></li>
+            </ul>
           </div>
         </div>
-      </footer>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-bar">
+    <div class="container">
+      &copy; 2025 <span class="color">Taller de Servicios Automotrices "Alfa Romeo"</span>. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
     </main>
 
  

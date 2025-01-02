@@ -23,3 +23,8 @@ Route::get('dashboard', function() {
 Route::get('/index', function () {
     return view('pages.index');  // Asegúrate de que 'pages.index' sea la vista correcta
 })->name('index');
+
+// Ruta para la vista de usuarios
+Route::get('/user', function () {
+    return view('pages.user.user');
+})->name('user');
