@@ -7,7 +7,7 @@
             </li>
             <!-- Usuarios -->
             <li style="margin: 0;">
-                <a href="{{ route('user') }}" style="color: white; border: 1px solid #222222; margin: 0; display: block;" onmouseover="this.style.backgroundColor='#555555'" onmouseout="this.style.backgroundColor='#222222'"><i class="fa fa-user fa-fw"></i> Usuarios</a>
+                <a  href="{{ route('users.index') }}" style="color: white; border: 1px solid #222222; margin: 0; display: block;" onmouseover="this.style.backgroundColor='#555555'" onmouseout="this.style.backgroundColor='#222222'"><i class="fa fa-user fa-fw"></i> Usuarios</a>
             </li>
             <!-- Reservaciones -->
             <li style="margin: 0;">

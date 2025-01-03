@@ -19,12 +19,15 @@ class AuthController extends Controller
     // Procesar inicio de sesión
     public function login(Request $request)
     {
+        // Validar los campos
         $credentials = $request->only('username', 'password');
         
         if (Auth::attempt($credentials)) {
+            // Redirigir al dashboard si el login es exitoso
             return redirect()->route('dashboard');
         }
 
+        // Si las credenciales son incorrectas, devolver error
         return back()->withErrors(['username' => 'Las credenciales son incorrectas'])->withInput();
     }
 
@@ -63,75 +66,5 @@ class AuthController extends Controller
     {
         Auth::logout();
         return redirect()->route('login');
-    }
-
-    // Mostrar la lista de usuarios
-    public function index()
-    {
-        $users = User::all();
-        return view('pages.user.index', compact('users'));
-    }
-
-    // Mostrar formulario para crear un nuevo usuario
-    public function create()
-    {
-        return view('pages.user.create');
-    }
-
-    // Guardar un nuevo usuario
-    public function store(Request $request)
-    {
-        $validator = Validator::make($request->all(), [
-            'username' => 'required|string|unique:users',
-            'password' => 'required|string|confirmed|min:8',
-        ]);
-
-        if ($validator->fails()) {
-            return back()->withErrors($validator)->withInput();
-        }
-
-        User::create([
-            'username' => $request->username,
-            'password' => Hash::make($request->password),
-        ]);
-
-        return redirect()->route('user.index');
-    }
-
-    // Mostrar formulario para editar un usuario
-    public function edit($id)
-    {
-        $user = User::findOrFail($id);
-        return view('pages.user.edit', compact('user'));
-    }
-
-    // Actualizar un usuario
-    public function update(Request $request, $id)
-    {
-        $validator = Validator::make($request->all(), [
-            'username' => 'required|string|unique:users,username,' . $id,
-            'password' => 'nullable|string|confirmed|min:8',
-        ]);
-
-        if ($validator->fails()) {
-            return back()->withErrors($validator)->withInput();
-        }
-
-        $user = User::findOrFail($id);
-        $user->username = $request->username;
-        if ($request->password) {
-            $user->password = Hash::make($request->password);
-        }
-        $user->save();
-
-        return redirect()->route('user.index');
-    }
-
-    // Eliminar un usuario
-    public function destroy($id)
-    {
-        $user = User::findOrFail($id);
-        $user->delete();
-        return redirect()->route('user.index');
     }
 }
